@@ -1,7 +1,7 @@
 {
   "name": "stencil-timepicker",
   "version": "1.0.0",
-  "description": "A web component to use the weather icons Skycons",
+  "description": "A web component to to add a simple time picker with a select/dropdown list.",
   "main": "dist/timepicker.js",
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
