@@ -1,12 +1,11 @@
 exports.config = {
   namespace: 'timepicker',
   generateDistribution: true,
-  bundles: [
-    { components: ['st-timepicker'] }
-  ]
+  serviceWorker: false
 };
 
 exports.devServer = {
   root: 'www',
   watchGlob: '**/**'
-};
+}
+
