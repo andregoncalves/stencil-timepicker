@@ -12,6 +12,7 @@ export class StTimepicker {
   @Prop() clock24: boolean = false;
   @Prop() name: string;
   @Prop() class: string;
+  @Prop() label: string = 'Pick a time';
 
 
   _getOptions () {
@@ -74,7 +75,7 @@ export class StTimepicker {
 
     return (
       <select class={this.class} name={this.name}>
-        <option disabled selected>Pick a time</option>
+        <option disabled selected>{this.label}</option>
         {minutes.map((m) => this._renderOption(m))}
       </select>
     );

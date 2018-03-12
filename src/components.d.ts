@@ -40,6 +40,7 @@ declare global {
     export interface StTimepickerAttributes extends HTMLAttributes {
       class?: string;
       clock24?: boolean;
+      label?: string;
       name?: string;
       selected?: string;
       step?: number;

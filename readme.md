@@ -48,6 +48,7 @@ Attribute | Default | Description
 selected | '' | The selected time
 step | 15 | The step minute interval
 clock24 | false | Choose between 24 or 12 hour clock
+label | 'Pick a time' | Label to display when nothing is selected
 
 ## Methods
 
@@ -57,6 +58,6 @@ clock24 | false | Choose between 24 or 12 hour clock
 ## Example usage
 
 ```html
-<st-timepicker name="picker1" selected="05:00 AM" class="my-class"></st-timepicker>
+<st-timepicker name="picker1" selected="05:00 AM" class="my-class" label="Choose time"></st-timepicker>
 <st-timepicker name="picker2" selected="16:05" step="5" clock24></st-timepicker>
 ```
