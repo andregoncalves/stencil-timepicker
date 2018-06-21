@@ -1,14 +1,14 @@
 {
   "name": "stencil-timepicker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A web component to to add a simple time picker with a select/dropdown list.",
-  "main": "dist/timepicker.js",
+  "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
+  "module": "dist/esm/index.js",
   "files": [
     "dist/"
   ],
-  "browser": "dist/timepicker.js",
   "scripts": {
     "build": "stencil build",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",

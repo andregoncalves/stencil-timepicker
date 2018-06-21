@@ -1,11 +1,19 @@
 exports.config = {
   namespace: 'timepicker',
-  generateDistribution: true,
-  serviceWorker: false
+  outputTargets: [
+    {
+      type: 'dist',
+      serviceWorker: false
+    },
+    {
+      type: 'www',
+      serviceWorker: false
+    }
+  ]
 };
 
 exports.devServer = {
   root: 'www',
-  watchGlob: '**/**'
+  watchGlob: '**/**',
+  httpPort: '3000'
 }
-
